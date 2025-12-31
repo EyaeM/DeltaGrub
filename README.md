@@ -10,11 +10,11 @@ So I asked in the Arch Linux discord whether there was a GRUB theme for Deltarun
 
 ## CHECKLIST
 
-Actually start making the thing ✓
-Align the Text x
-Add more text like the time and description x
-Make the boxes become green when over them x
-Add the SOUL as a selector x
+- [X] Actually start making the thing
+- [ ] Align the Text
+- [ ] Add more text like the time and description
+- [ ] Make the boxes become green when over them
+- [ ] Add the SOUL as a selector
 
 ## CREDITS
 
