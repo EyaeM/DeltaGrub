@@ -9,27 +9,29 @@ terminal-height: "80%"
 terminal-box: "term_*.png"
 terminal-font: "determination_22.pf2"
 
-### MAIN BOOT MENU
+# MAIN BOOT MENU
+# RIP DA CRISP 2k RESOLUTION!
+# WE ARE NOW A 1366×768 HOUSEHOLD!
+# ALSO I COULDNT FIND A WAY TO MAKE IT RELATIVE SO THESE ARE NOW EXACT PIXEL MESSUREMENTS... THAT SUCKS IG :P
 + boot_menu {
-	left = 50%-320
-	top = 50%-220
-	width = 809
-	height = 324
-	item_font = "determination_30.pf2"
-	item_color = "#018001"
-	selected_item_color = "#00ff01"
-	item_padding = 0
-	# Each item: 96px height + 12px spacing = 108px
-	# 3 items visible: 108 × 3 = 324px
-	item_height = 108
-	item_spacing = 40
-	icon_width = 1
-	icon_height = 1
-	item_icon_space = 0
-	scrollbar = true
-	scrollbar_width = 12
-	scrollbar_thumb = "scrollbar_thumb_*.png"
-	scrollbar_frame = "scrollbar_frame_*.png"
+    left = 344
+    top = 173
+    width = 678
+    height = 422
+
+    item_font = "determination_30.pf2"
+
+    item_height = 134
+    item_spacing = 10
+    item_padding = 0
+
+    item_pixmap_style = "menu_item_*.png"
+    selected_item_pixmap_style = "menu_item_selected_*.png"
+
+    item_color = "#018001"
+    selected_item_color = "#00ff01"
+
+    scrollbar = false
 }
 
 # TIMEOUT
